@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,100&display=swap');
+@font-face{
+  font-family:"FiraSans";
+  src: url("style/FiraSans-Black.ttf");
+  src: local('0'), url('style/FiraSans-Black.ttf'), format('ttf'),url('style/FiraSans-Black.ttf'), format('truetype'), url('style/FiraSans-Black.ttf'), format('svg') ;
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face{
+  font-family:"FiraSans";
+  src: url("style/FiraSans-Medium.ttf");
+  src: local('0'), url('style/FiraSans-Medium.ttf'), format('ttf'),url('style/FiraSans-Medium.ttf'), format('truetype'), url('style/FiraSans-Medium.ttf'), format('svg') ;
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face{
+  font-family:"FiraSans";
+  src: url("style/FiraSans-Thin.ttf");
+  src: local('0'), url('style/FiraSans-Thin.ttf'), format('ttf'),url('style/FiraSans-Thin.ttf'), format('truetype'), url('style/FiraSans-Thin.ttf'), format('svg') ;
+  font-weight: 100;
+  font-style: normal;
+}
+body {
+  background-color: rgba(192, 221, 239, 0.956);
+  width: 90%;
+  margin: 5%;
+}
+main {
+  margin-bottom: 130px;
+}
+h1{
+  font-family: 'FiraSans','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  letter-spacing: 7px;
+}
+nav{
+  text-align: right;
+  font-family: 'FiraSans','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#name {
+  font-family: 'FiraSans','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.alyona {
+  text-decoration: underline ;
+}
+p {
+  font-family: 'FiraSans','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.promise {
+  font-family: 'FiraSans','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: red;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+#date {
+  font-family: 'FiraSans','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 45%;
+  float: left;
+}
+#FN {
+  font-family: 'FiraSans','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 45%;
+  float: right;
+  text-align: right;
+}
+footer {
+  font-family: 'FiraSans','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(68, 68, 182);
+  height: 100px;
+}
